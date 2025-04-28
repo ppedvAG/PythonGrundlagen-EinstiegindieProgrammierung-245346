@@ -119,3 +119,23 @@ print(auto["KM"])
 print(auto.keys())
 print(auto.values())
 print(auto.items())
+
+###########################################
+
+# Konvertierungen
+# Werte in Variablen zu anderen Typen ändern
+# Syntax: Zieltyp(Variable)
+
+# String zu Zahl
+a = "123"
+a = int(a)  # Versucht den Inhalt von a zu einer Zahl umzuwandeln
+print(a * 2)
+
+b = "123.456"
+b = float(b)
+print(b * 2)
+
+print(str(a) + str(b))
+
+print(bool(a))  # Jeder Wert der nicht 0 ist, ist True
+print(bool([]))  # Leere Liste -> bool: False
