@@ -87,6 +87,10 @@ print(n.count("M"))
 print(s.upper())
 print(s.lower())
 
+# len(...)
+# Gibt die Länge eines String zurück
+print(len(s))
+
 ############################################################
 
 # Arithmetische Operatoren
